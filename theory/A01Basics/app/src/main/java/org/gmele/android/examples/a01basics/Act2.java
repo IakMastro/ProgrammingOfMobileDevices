@@ -1,5 +1,6 @@
 package org.gmele.android.examples.a01basics;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -46,6 +47,7 @@ public class Act2 extends AppCompatActivity implements View.OnClickListener
             for (int i = 0; i < L; i++)
             {
                 TableRow Row = new TableRow (this);
+                System.out.println("*** Creating line " + i);
                 for (int j = 0; j < C; j++)
                 {
                     ImageView img = new ImageView (this);
@@ -66,5 +68,15 @@ public class Act2 extends AppCompatActivity implements View.OnClickListener
             toast.setGravity (Gravity.CENTER, 0, 0);
             toast.show ();
         }
+    }
+
+    public void goBack(View view) {
+        String query = EtLines.getText().toString() + "X" + EtColumns.getText().toString();
+        Intent intent = new Intent();
+
+        intent.putExtra("query", query);
+        setResult(RESULT_OK, intent);
+
+        finish();
     }
 }

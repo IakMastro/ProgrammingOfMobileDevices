@@ -58,6 +58,13 @@
             android:text="Ο.Κ."
             android:id="@+id/BtDoIt"
             android:layout_marginTop="5dp"/>
+
+        <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Πίσω"
+            android:id="@+id/btnBack"
+            android:layout_margin="5dp"
+            android:onClick="goBack"/>
     </LinearLayout>
 
     <ScrollView
