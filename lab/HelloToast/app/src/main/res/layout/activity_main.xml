@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/toast_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast_button_label"
+        android:onClick="showToast" />
+
+    <TextView
+        android:id="@+id/text_view_count"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:textSize="160sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:text="@string/count_initial_value" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/count_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/count_button_label"
+            android:onClick="countUp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/count_down_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/count_down"
+            android:onClick="countDown"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>
