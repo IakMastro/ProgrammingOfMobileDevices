@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GeographyQuiz</string>
+    <string name="first_question">Η Αθήνα είναι η πρωτεύουσα της Ελλάδας</string>
+    <string name="True">Σωστό</string>
+    <string name="False">Λάθος</string>
+    <string name="results">Αποτελέσματα</string>
+    <string name="second_question">Το Όσλο είναι στην Σουιδία</string>
+    <string name="third_question">Η Ιαπωνία είναι πολή της Βραζιλίας</string>
+    <string name="fourth_question">Ο Δουνάβης παιρνάει από την Βουδαπέστη</string>
+    <string name="fifth_question">Το καλύτερο νήσι της Ελλάδας είναι η Νάξος</string>
+    <string name="sixth_question">Η Οσάκα είναι πολή της Νότιας Κορέας</string>
+    <string name="seventh_question">Η Σαουθ Παρκ είναι πραγματική πολή του Κολοράντο, ΗΠΑ</string>
+    <string name="eighth_question">Η πρωτεύουσα της Αμερικής είναι η Νιου Γιορκ</string>
+    <string name="ninth_question">Η Κρακοβία είναι η πρωτεύουσα της Πολωνίας</string>
+    <string name="tenth_question">Το Μπιγκ Μπεν βρίσκεται στο Λονδίνο</string>
+</resources>
