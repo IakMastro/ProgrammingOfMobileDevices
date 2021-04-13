@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BeerOrderApp</string>
+    <string name="beer_type">Κατηγορία μπύρας</string>
+</resources>

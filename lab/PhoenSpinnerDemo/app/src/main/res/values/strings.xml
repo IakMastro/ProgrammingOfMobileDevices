@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PhoneSpinnerDemo</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="click_me">Click me!</string>
+    <string-array name="label_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+</resources>
