@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Browsers App</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="Browsers">
+        <item>Chrome</item>
+        <item>Edge</item>
+        <item>Mozilla</item>
+        <item>Opera</item>
+        <item>Safari</item>
+        <item>Seamonkey</item>
+        <item>Pale Moon</item>
+        <item>Vivaldi</item>
+    </string-array>
+
+</resources>
